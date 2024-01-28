@@ -1,5 +1,6 @@
 body{
     background-color: #000;
+    font-family: var(--font-dm-sans);
     
 }
 .sidebar{
@@ -45,9 +46,6 @@ body{
     font-size: 14px;
     font-family: "DM sans", sans-serif;
 }
-
-
-
 
 .library{
     background-color: #121212;
@@ -177,10 +175,26 @@ body{
     border-radius: 20px;
 }
 
-
-
-
-
-
-
+.diclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    display: flex;
+    padding: 15px, 40px;
+    justify-content: space-between;
+}
+.diclaimer-premium .text{
+    flex-shrink: 0;
+    color: #fff;
+}
+.button__inscrever{
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 5px;
+}
 
